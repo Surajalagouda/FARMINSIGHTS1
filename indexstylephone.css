@@ -68,7 +68,7 @@ body {
     text-decoration: none;
         padding: 4px 10px;
         margin-left: 6px;
-        font-size: 1.0rem;
+        font-size: 0.6rem;
         font-weight: 800;
         color: rgb(0, 0, 0);
         /* background-color: aquamarine; */
@@ -80,7 +80,7 @@ body {
     text-decoration: none;
     padding: 5px 5px;
     margin-left: 20px;
-    font-size: 1.1rem;
+    font-size: 0.7rem;
     color: white;
     font-weight: bolder;
     background-color: rgb(197, 62, 0);
