@@ -1,0 +1,136 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* main backgroung (imp) */
+.imp {
+    width: 100%;
+    min-height: 140vh;
+    background-image: linear-gradient(rgb(255, 255, 255),rgba(198, 195, 221, 0.65)), url(Screenshot\ 2024-05-05\ 131329.png) ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* padding: 10px 8%; */
+}
+
+/* hero img starts */
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* height: 50%; */
+    border: 2px solid black;
+    background-image: url(https://images.pexels.com/photos/1443867/pexels-photo-1443867.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* opacity: 0.7; */
+
+}
+
+.hero img {
+    height: 300px;
+    width: 300px;
+    border-radius: 500px;
+    margin-top: 100px;
+    /* filter: invert(100%); */
+}
+
+.hero h1 {
+    padding: 5px;
+    display: block;
+    background-color: bisque;
+    color: rgb(255, 1, 1);
+    /* margin-bottom: 100px; */
+}
+
+/* navbar starts */
+.navbar {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: azure;
+}
+
+.navbar ul {
+    /* position: fixed; */
+    display: flex;
+}
+
+.navbar ul li {
+    list-style: none;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    padding: 5px 10px;
+    margin-left: 10px;
+    font-size: 1.0rem;
+    font-weight: 900;
+    color: rgb(0, 0, 0);
+    /* background-color: aquamarine; */
+    border-radius: 5px;
+}
+
+.lang a {
+    font-family: "Noto Sans Kannada", sans-serif;
+    text-decoration: none;
+    padding: 5px 5px;
+    margin-left: 20px;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: bolder;
+    background-color: rgb(197, 62, 0);
+    border-radius: 5px;
+}
+
+.lang a:hover {
+    border: 2px solid black;
+}
+
+.navbar ul li a:hover {
+    border: 2px solid black;
+}
+
+/* container or boxs starts */
+.pH h1 {
+    background-color: rgb(255, 255, 255);
+    padding: 30px 0px;
+    margin-top: 0px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 300px;
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border: 2px solid black;
+}
+
+.select {
+    text-decoration: none;
+    border: 2px solid black;
+    padding: 10px 20px;
+    border-radius: 7px;
+    background-color: aquamarine;
+}
+
+.select:hover {
+    background-color: gray;
+}
