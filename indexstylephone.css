@@ -8,7 +8,7 @@ body {
 .imp {
     width: 100%;
     min-height: 75vh;
-    background-image: linear-gradient(rgb(255, 255, 255),rgba(198, 195, 221, 0.65)), url(Screenshot\ 2024-05-05\ 131329.png) ;
+    background-image: linear-gradient(rgba(191, 233, 233, 0.863),rgba(198, 195, 221, 0.65)), url(hero1.png) ;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -40,7 +40,7 @@ body {
 }
 
 .hero h1 {
-    background-color: bisque;
+    background-color: rgb(255, 228, 196);
     color: rgb(255, 1, 1);
     font-size: 1.0rem;
     /* margin-bottom: 100px; */
@@ -67,9 +67,9 @@ body {
 
 .navbar ul li a {
     text-decoration: none;
-        padding: 4px 3px;
-        margin-left: 6px;
-        font-size: 0.6rem;
+        padding: 4px 5px;
+        margin-left: 0px;
+        font-size: 0.8rem;
         font-weight: 800;
         color: rgb(0, 0, 0);
         /* background-color: aquamarine; */
@@ -81,7 +81,7 @@ body {
     text-decoration: none;
     padding: 5px 5px;
     margin-left: 20px;
-    font-size: 0.6rem;
+    font-size: 1.1rem;
     color: white;
     font-weight: bolder;
     background-color: rgb(197, 62, 0);
@@ -98,7 +98,7 @@ body {
 
 /* container or boxs starts */
 .pH h1 {
-    background-color: rgb(255, 255, 255);
+    /* background-color: rgb(255, 255, 255); */
     padding: 30px 0px;
     margin-top: 0px;
     text-align: center;
@@ -133,4 +133,51 @@ body {
 
 .select:hover {
     background-color: gray;
+}
+/* FOOTER */
+.foot-1{
+    background-color: #374758;
+    color: white;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot-1 a{
+    text-decoration: none;
+    align-items: center;
+}
+.foot-1 a h2:hover{
+    color: rgb(0, 0, 0);
+}
+.foot-1 a h2{
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: white;
+}
+.foot-4{
+    background-color: #374758;
+    color: white;
+    height: 50px;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    font-size: 0.8rem;
+    font-family: sans-serif;
+    display: flex;
+    text-align: center;
+    /* font-weight: bolder; */
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.pages{
+    /* font-size: 1rem;
+    text-align: center; */
+    padding-top: 25px;
+}
+.copy{
+    /* font-size: 1rem;
+    text-align: center; */
+    padding-top: 8px;
 }
