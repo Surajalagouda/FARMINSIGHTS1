@@ -4,12 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Document</title>
     <style>
         body {
             padding: 0;
             margin: 0;
             box-sizing: border-box;
+            background-color: rgb(250, 175, 0);
+            text-decoration: none;
         }
 
         .btn {
@@ -39,7 +42,7 @@
             justify-content: center;
             /* display: block; */
             width: 100%;
-            padding: 50px 14px;
+            padding: 10px 14px;
             border-radius: 5px;
             /* background-color: white; */
             text-align: center;
@@ -96,50 +99,113 @@
         .star label{
             margin-right: 10px;
         }
+        .query {
+            flex-direction: row;
+        }
+        .star i:hover{
+            color: red;
+            background-color: red;
+        }
+        .Home{
+            display: flex;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+        }
+        .Home a{
+            text-decoration: none;
+            color: white;
+            font-size: 1.5rem;
+            background-color: greenyellow;
+            padding: 5px 30px;
+            border-radius: 50px;
+            margin-bottom: 30px;
+        }
+        /* footer starts */
+        .foot-4{
+    background-color: #374758;
+    color: white;
+    height: 50px;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    display: flex;
+    text-align: center;
+    /* font-weight: bolder; */
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.pages{
+    /* font-size: 1rem;
+    text-align: center; */
+    padding-top: 25px;
+}
+.copy{
+    /* font-size: 1rem;
+    text-align: center; */
+    padding-top: 8px;
+}
     </style>
 </head>
 
 <body>
     <div class="main">
+
     <div class="container">
         <div class="container-head">
-            <img src="Screenshot 2024-05-05 131329.png" alt="Loading">
+            <a href="index.html"><img src="Screenshot 2024-05-05 131329.png" alt="Loading"></a>
         </div>
+        <span style="font-size: 1rem;font-family: 'Times New Roman', Times, serif;text-decoration: none;">*Please Enter your Email or Phone number (In which you are comfortable) For our reference &to contact you with reply. </span>
         <form action="https://api.web3forms.com/submit" method="POST">
             <input type="hidden" name="access_key" value="60dc0005-d7e3-44c3-bf06-8915169e7c60">
             <div class="forms">
-                <input type="text" name="Name" id="name" placeholder="ENTER YOUR NAME">
+                <input type="text" name="Name :" id="name" placeholder="ENTER YOUR NAME">
             </div>
             <div class="forms">
-                <input type="number" name="Age" id="name" placeholder="ENTER YOUR AGE">
+                <input type="number" name="Age :" id="name" placeholder="ENTER YOUR AGE">
             </div>
             <div class="forms">
-                <input type="email" name="Email" id="name" placeholder="YOUR EMAIL">
+                <input type="email" name="Email :" id="name" placeholder="YOUR EMAIL">
             </div>
             <div class="forms">
-                <input type="text" name="myname4" id="name" placeholder="ENTER YOUR PHONE NUMBER">
+                <input type="text" name="Phone number :" id="name" placeholder="ENTER YOUR PHONE NUMBER">
             </div>
             <div class="forms">
                 <input type="text" name="myname5" id="name" placeholder="ENTER YOUR LOCALITY">
             </div>
+            <div class="forms query">
+                <label for="queries"><h3>Enter your Queries :</h3><br> <textarea id="queries" name="Queries" cols="30" rows="10" style="cursor: pointer; background-color: rgba(152, 235, 222, 0.634);color: rgb(0, 0, 0);font-size: 1rem;font-family: 'Times New Roman', Times, serif;font-weight: bolder;"></textarea></label>
+            </div>
             RATING
             <div class="star">
-                <label for="1 star">1star<input type="checkbox" name="1 star" id="1 star"></label>
-                <label for="1 star">2star<input type="checkbox" name="2 star" id="2 star"></label>
-                <label for="1 star">3star<input type="checkbox" name="3 star" id="3 star"></label>
-                <label for="1 star">4star<input type="checkbox" name="4 star" id="4 star"></label>
-                <label for="1 star">5star<input type="checkbox" name="5 star" id="5 star"></label>
+                <label for="1 star"><i class="fa-regular fa-star" onclick="star()"></i><input type="checkbox" name="1 star" id="1 star"></label>
+                <label for="2 star"><i class="fa-regular fa-star"></i><input type="checkbox" name="2 star" id="2 star"></label>
+                <label for="3 star"><i class="fa-regular fa-star"></i><input type="checkbox" name="3 star" id="3 star"></label>
+                <label for="4 star"><i class="fa-regular fa-star"></i><input type="checkbox" name="4 star" id="4 star"></label>
+                <label for="5 star"><i class="fa-regular fa-star"></i><input type="checkbox" name="5 star" id="5 star"></label>
             </div>
+            <script>
+                
+            </script>
             <div class="forms">
                 <button type="submit">SUBMIT</button>
             </div>
-
         </form>
     </div>
-    <div class="btn">
+    <div class="Home">
         <a href="index.html">Home</a>
     </div>
 </div>
+<footer>
+    <div class="foot-4">
+        <div class="copy">
+            © 2024 - FARM INSIGHTS , Inc. All rights reserved! <br>
+            for further details mail us at : thefarminsights@gmail.com
+        </div>
+    </div>
+</footer>
 </body>
-
 </html>
