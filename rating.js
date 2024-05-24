@@ -108,11 +108,11 @@ function rate1() {
     let r3 = document.getElementById('star-icon3');
     let r4 = document.getElementById('star-icon4');
     let r5 = document.getElementById('star-icon5');
-    r1.style.color = "yellow";
-    r2.style.color = "yellow";
-    r3.style.color = "yellow";
-    r4.style.color = "yellow";
-    r5.style.color = "yellow";
+    r1.style.color = "rgb(77, 255, 0)";
+    r2.style.color = "rgb(77, 255, 0)";
+    r3.style.color = "rgb(77, 255, 0)";
+    r4.style.color = "rgb(77, 255, 0)";
+    r5.style.color = "rgb(77, 255, 0)";
     let msg = document.getElementById('reaction-head');
     let msg1 = document.getElementById('reaction-head1');
     let msg2 = document.getElementById('reaction-head2');
