@@ -24,3 +24,129 @@
     text-align: center; */
     padding-top: 8px;
 }
+/* rating layout */
+#star-icon1 {
+    color: white;
+    font-size: 3rem;
+    margin-right: 10px;
+}
+
+#star-icon2 {
+    color: white;
+    font-size: 3rem;
+    margin-right: 10px;
+}
+
+#star-icon3 {
+    color: white;
+    font-size: 3rem;
+    margin-right: 10px;
+}
+
+#star-icon4 {
+    color: white;
+    font-size: 3rem;
+    margin-right: 10px;
+}
+
+#star-icon5 {
+    color: white;
+    font-size: 3rem;
+}
+
+.main-star {
+    border: 4px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(28, 21, 21);
+    padding: 5px 20px;
+    border-radius: 10px;
+}
+
+.star {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+/* fOR JAVASCRIPT OF RATING */
+#star-icon1:hover {
+    cursor: pointer;
+    color: yellow;
+}
+
+#star-icon2:hover {
+    cursor: pointer;
+    color: yellow;
+}
+
+#star-icon3:hover{
+    cursor: pointer;
+    color: yellow;
+}
+
+#star-icon4:hover {
+    cursor: pointer;
+    color: yellow;
+}
+
+#star-icon5:hover {
+    cursor: pointer;
+    color: yellow;
+}
+#reaction-head {
+    font-size: 2.5rem;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 242, 0);
+}
+.reaction{
+    width: 250px;
+    height: 80px;
+}
+#reaction-head1 {
+    font-size: 1rem;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 242, 0);
+    text-decoration: none;
+    text-decoration-color: transparent;
+    display: none;
+}
+
+#reaction-head2 {
+    font-size: 1rem;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 242, 0);
+    display : none;
+}
+
+#reaction-head3 {
+    font-size: 1rem;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 242, 0);
+    display : none;
+}
+
+#reaction-head4 {
+    font-size: 1rem;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 242, 0);
+    display : none;
+}
+
+#reaction-head5 {
+    font-size: 1rem;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 242, 0);
+    display : none;
+}
+/* Query entering */
+#query1{
+    display: none;
+}
