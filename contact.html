@@ -4,7 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Document</title>
     <link rel="stylesheet" href="contact.css">
     <link rel="stylesheet" media="screen and (max-width:1500px)" href="contactphone.css">
@@ -13,58 +15,81 @@
 <body>
     <div class="main">
 
-    <div class="container">
-        <div class="container-head">
-            <a href="index.html"><img src="Screenshot 2024-05-05 131329.png" alt="Loading"></a>
+        <div class="container">
+            <div class="container-head">
+                <a href="index.html"><img src="Screenshot 2024-05-05 131329.png" alt="Loading"></a>
+            </div>
+            <span style="font-size: 1rem;font-family: 'Times New Roman', Times, serif;text-decoration: none;">*Please
+                Enter your Email or Phone number (In which you are comfortable) For our reference &to contact you with
+                reply. </span>
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="60dc0005-d7e3-44c3-bf06-8915169e7c60">
+                <div class="forms">
+                    <input type="text" name="Name :" id="name" placeholder="ENTER YOUR NAME">
+                </div>
+                <div class="forms">
+                    <input type="number" name="Age :" id="name" placeholder="ENTER YOUR AGE">
+                </div>
+                <div class="forms">
+                    <input type="email" name="Email :" id="name" placeholder="YOUR EMAIL">
+                </div>
+                <div class="forms">
+                    <input type="text" name="Phone number :" id="name" placeholder="ENTER YOUR PHONE NUMBER">
+                </div>
+                <div class="main-star">
+                    <div class="star">
+                        <label for="1 star"><i class="fa-sharp fa-solid fa-star start-icon" id="star-icon1"
+                                onclick="rate1()"></i><input type="radio" name="star" value="1 star" id="1 star"
+                                class="star-class"></label>
+                        <label for="2 star"><i class="fa-sharp fa-solid fa-star" id="star-icon2"
+                                onclick="rate2()"></i><input type="radio" name="star" value="2 star" id="2 star"
+                                class="star-class"></label>
+                        <label for="3 star"><i class="fa-sharp fa-solid fa-star" id="star-icon3"
+                                onclick="rate3()"></i><input type="radio" name="star" value="3 star" id="3 star"
+                                class="star-class"></label>
+                        <label for="4 star"><i class="fa-sharp fa-solid fa-star" id="star-icon4"
+                                onclick="rate4()"></i><input type="radio" name="star" value="4 star" id="4 star"
+                                class="star-class"></label>
+                        <label for="5 star"><i class="fa-sharp fa-solid fa-star" id="star-icon5"
+                                onclick="rate5()"></i><input type="radio" name="star" value="5 star" id="5 star"
+                                class="star-class"></label>
+                    </div>
+                    <div class="reaction">
+                        <span id="reaction-head">Rate us</span>
+                        <h2 id="reaction-head1">Only 01 ? Why? Any problem &#128560;</h2>
+                        <h2 id="reaction-head2">02! What's the problem &#128531;</h2>
+                        <h2 id="reaction-head3">Satisfactory, But let us know your queries &#129488;</h2>
+                        <h2 id="reaction-head4">4 is Good!let us know where that 01 gone &#129300;</h2>
+                        <h2 id="reaction-head5">Great&#129321; We are Happy &#128517;</h2>
+                        
+                    </div>
+                    <script src="rating.js">
+                        
+                    </script>
+                    <div class="forms query" id="query1">
+                        <label for="queries">
+                            <textarea id="queries" name="Queries" cols="25" rows="6"
+                                style="cursor: pointer; background-color: rgba(14, 16, 16, 0.634);color: rgb(237, 230, 230);font-size: 1.5rem;font-family: 'Times New Roman', Times, serif;font-weight: bolder;" placeholder="Enter Your Query or Feedback....."></textarea>
+                        </label>
+                    </div>
+                </div>
+                <div class="forms">
+                    <button type="submit">SUBMIT</button>
+                </div>
+            </form>
         </div>
-        <span style="font-size: 1rem;font-family: 'Times New Roman', Times, serif;text-decoration: none;">*Please Enter your Email or Phone number (In which you are comfortable) For our reference &to contact you with reply. </span>
-        <form action="https://api.web3forms.com/submit" method="POST">
-            <input type="hidden" name="access_key" value="60dc0005-d7e3-44c3-bf06-8915169e7c60">
-            <div class="forms">
-                <input type="text" name="Name :" id="name" placeholder="ENTER YOUR NAME">
-            </div>
-            <div class="forms">
-                <input type="number" name="Age :" id="name" placeholder="ENTER YOUR AGE">
-            </div>
-            <div class="forms">
-                <input type="email" name="Email :" id="name" placeholder="YOUR EMAIL">
-            </div>
-            <div class="forms">
-                <input type="text" name="Phone number :" id="name" placeholder="ENTER YOUR PHONE NUMBER">
-            </div>
-            <div class="forms">
-                <input type="text" name="myname5" id="name" placeholder="ENTER YOUR LOCALITY">
-            </div>
-            <div class="forms query">
-                <label for="queries"><h3>Enter your Queries :</h3><br> <textarea id="queries" name="Queries" cols="30" rows="10" style="cursor: pointer; background-color: rgba(152, 235, 222, 0.634);color: rgb(0, 0, 0);font-size: 1rem;font-family: 'Times New Roman', Times, serif;font-weight: bolder;"></textarea></label>
-            </div>
-            RATING
-            <div class="star">
-                <label for="1 star"><i class="fa-regular fa-star" onclick="star()"></i><input type="checkbox" name="1 star" id="1 star"></label>
-                <label for="2 star"><i class="fa-regular fa-star"></i><input type="checkbox" name="2 star" id="2 star"></label>
-                <label for="3 star"><i class="fa-regular fa-star"></i><input type="checkbox" name="3 star" id="3 star"></label>
-                <label for="4 star"><i class="fa-regular fa-star"></i><input type="checkbox" name="4 star" id="4 star"></label>
-                <label for="5 star"><i class="fa-regular fa-star"></i><input type="checkbox" name="5 star" id="5 star"></label>
-            </div>
-            <script>
-                
-            </script>
-            <div class="forms">
-                <button type="submit">SUBMIT</button>
-            </div>
-        </form>
-    </div>
-    <div class="Home">
-        <a href="index.html">Home</a>
-    </div>
-</div>
-<footer>
-    <div class="foot-4">
-        <div class="copy">
-            © 2024 - FARM INSIGHTS , Inc. All rights reserved! <br>
-            for further details mail us at : thefarminsights@gmail.com
+        <div class="Home">
+            <a href="index.html">Home</a>
         </div>
     </div>
-</footer>
+    <footer>
+        <div class="foot-4">
+            <div class="copy">
+                © 2024 - FARM INSIGHTS , Inc. All rights reserved! <br>
+                for further details mail us at : thefarminsights@gmail.com
+            </div>
+        </div>
+    </footer>
 </body>
+
 </html>
