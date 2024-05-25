@@ -4,7 +4,7 @@ function rate1() {
     let r3 = document.getElementById('star-icon3');
     let r4 = document.getElementById('star-icon4');
     let r5 = document.getElementById('star-icon5');
-    r1.style.color = "yellow";
+    r1.style.color = "red";
     r2.style.color = "white";
     r3.style.color = "white";
     r4.style.color = "white";
@@ -17,6 +17,7 @@ function rate1() {
     let msg5 = document.getElementById('reaction-head5');
     msg.style.display = "none";
     msg1.style.display = "block";
+    msg1.style.color = "red";
     msg2.style.display = "none";
     msg3.style.display = "none";
     msg4.style.display = "none";
@@ -44,6 +45,7 @@ function rate1() {
     msg.style.display = "none";
     msg1.style.display = "none";
     msg2.style.display = "block";
+    msg2.style.color = "yellow";
     msg3.style.display = "none";
     msg4.style.display = "none";
     msg5.style.display = "none";
@@ -71,6 +73,7 @@ function rate1() {
     msg1.style.display = "none";
     msg2.style.display = "none";
     msg3.style.display = "block";
+    msg3.style.color = "yellow";
     msg4.style.display = "none";
     msg5.style.display = "none";
     let q = document.getElementById('query1');
@@ -98,6 +101,7 @@ function rate1() {
     msg2.style.display = "none";
     msg3.style.display = "none";
     msg4.style.display = "block";
+    msg4.style.color = "yellow";
     msg5.style.display = "none";
     let q = document.getElementById('query1');
     q.style.display = "block";
@@ -125,6 +129,7 @@ function rate1() {
     msg3.style.display = "none";
     msg4.style.display = "none";
     msg5.style.display = "block";
+    msg5.style.color = "rgb(77, 255, 0)";
     let q = document.getElementById('query1');
     q.style.display = "block";
 }
