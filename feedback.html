@@ -19,64 +19,68 @@
             <div class="container-head">
                 <a href="index.html"><img src="Screenshot 2024-05-05 131329.png" alt="Loading"></a>
             </div>
-            <span style="font-size: 1rem;font-family: 'Times New Roman', Times, serif;text-decoration: none;">*Please
+            <span
+                style="font-size: 1rem;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;text-decoration: none;width: 300px; text-decoration: none; background-color: rgb(0, 0, 0); color: white; padding: 10px;border-radius: 5px; margin-top: 10px;">*Please
                 Enter your Email or Phone number (In which you are comfortable) For our reference &to contact you with
                 reply. </span>
-            <form action="https://api.web3forms.com/submit" method="POST">
-                <input type="hidden" name="access_key" value="60dc0005-d7e3-44c3-bf06-8915169e7c60">
-                <div class="forms">
-                    <input type="text" name="Name :" id="name" placeholder="ENTER YOUR NAME">
-                </div>
-                <div class="forms">
-                    <input type="number" name="Age :" id="name" placeholder="ENTER YOUR AGE">
-                </div>
-                <div class="forms">
-                    <input type="email" name="Email :" id="name" placeholder="YOUR EMAIL">
-                </div>
-                <div class="forms">
-                    <input type="text" name="Phone number :" id="name" placeholder="ENTER YOUR PHONE NUMBER">
-                </div>
-                <div class="main-star">
-                    <div class="star">
-                        <label for="1 star"><i class="fa-sharp fa-solid fa-star start-icon" id="star-icon1"
-                                onclick="rate1()"></i><input type="radio" name="star" value="1 star" id="1 star"
-                                class="star-class"></label>
-                        <label for="2 star"><i class="fa-sharp fa-solid fa-star" id="star-icon2"
-                                onclick="rate2()"></i><input type="radio" name="star" value="2 star" id="2 star"
-                                class="star-class"></label>
-                        <label for="3 star"><i class="fa-sharp fa-solid fa-star" id="star-icon3"
-                                onclick="rate3()"></i><input type="radio" name="star" value="3 star" id="3 star"
-                                class="star-class"></label>
-                        <label for="4 star"><i class="fa-sharp fa-solid fa-star" id="star-icon4"
-                                onclick="rate4()"></i><input type="radio" name="star" value="4 star" id="4 star"
-                                class="star-class"></label>
-                        <label for="5 star"><i class="fa-sharp fa-solid fa-star" id="star-icon5"
-                                onclick="rate5()"></i><input type="radio" name="star" value="5 star" id="5 star"
-                                class="star-class"></label>
+            <div class="border">
+                <form action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="60dc0005-d7e3-44c3-bf06-8915169e7c60">
+                    <div class="forms">
+                        <input type="text" name="Name :" id="name" placeholder="ENTER YOUR NAME">
                     </div>
-                    <div class="reaction">
-                        <span id="reaction-head">Rate us</span>
-                        <h2 id="reaction-head1">Only 01 ? Why? Any problem &#128560;</h2>
-                        <h2 id="reaction-head2">02! What's the problem &#128531;</h2>
-                        <h2 id="reaction-head3">Satisfactory, But let us know your queries &#129488;</h2>
-                        <h2 id="reaction-head4">4 is Good!let us know where that 01 gone &#129300;</h2>
-                        <h2 id="reaction-head5">Great&#129321; We are Happy &#128517;</h2>
-                        
+                    <div class="forms">
+                        <input type="number" name="Age :" id="name" placeholder="ENTER YOUR AGE">
                     </div>
-                    <script src="rating.js">
-                        
-                    </script>
-                    <div class="forms query" id="query1">
-                        <label for="queries">
-                            <textarea id="queries" name="Queries" cols="25" rows="6"
-                                style="cursor: pointer; background-color: rgba(14, 16, 16, 0.634);color: rgb(237, 230, 230);font-size: 1.5rem;font-family: 'Times New Roman', Times, serif;font-weight: bolder;" placeholder="Enter Your Query or Feedback....."></textarea>
-                        </label>
+                    <div class="forms">
+                        <input type="email" name="Email :" id="name" placeholder="YOUR EMAIL">
                     </div>
-                </div>
-                <div class="forms">
-                    <button type="submit">SUBMIT</button>
-                </div>
-            </form>
+                    <div class="forms">
+                        <input type="text" name="Phone number :" id="name" placeholder="ENTER YOUR PHONE NUMBER">
+                    </div>
+                    <div class="main-star">
+                        <div class="star">
+                            <label for="1 star"><i class="fa-sharp fa-solid fa-star start-icon" id="star-icon1"
+                                    onclick="rate1()"></i><input type="radio" name="star" value="1 star" id="1 star"
+                                    class="star-class"></label>
+                            <label for="2 star"><i class="fa-sharp fa-solid fa-star" id="star-icon2"
+                                    onclick="rate2()"></i><input type="radio" name="star" value="2 star" id="2 star"
+                                    class="star-class"></label>
+                            <label for="3 star"><i class="fa-sharp fa-solid fa-star" id="star-icon3"
+                                    onclick="rate3()"></i><input type="radio" name="star" value="3 star" id="3 star"
+                                    class="star-class"></label>
+                            <label for="4 star"><i class="fa-sharp fa-solid fa-star" id="star-icon4"
+                                    onclick="rate4()"></i><input type="radio" name="star" value="4 star" id="4 star"
+                                    class="star-class"></label>
+                            <label for="5 star"><i class="fa-sharp fa-solid fa-star" id="star-icon5"
+                                    onclick="rate5()"></i><input type="radio" name="star" value="5 star" id="5 star"
+                                    class="star-class"></label>
+                        </div>
+                        <div class="reaction">
+                            <span id="reaction-head">Rate us</span>
+                            <h2 id="reaction-head1">Only 01 ? Why? Any problem &#128560;</h2>
+                            <h2 id="reaction-head2">02! What's the problem &#128531;</h2>
+                            <h2 id="reaction-head3">Satisfactory, But let us know your queries &#129488;</h2>
+                            <h2 id="reaction-head4">4 is Good!let us know where that 01 gone &#129300;</h2>
+                            <h2 id="reaction-head5">Great&#129321; We are Happy &#128517;</h2>
+
+                        </div>
+                        <script src="rating.js">
+
+                        </script>
+                        <div class="forms query" id="query1">
+                            <label for="queries">
+                                <textarea id="queries" name="Queries" cols="25" rows="6"
+                                    style="cursor: pointer; background-color: rgba(14, 16, 16, 0.634);color: rgb(237, 230, 230);font-size: 1rem;font-family: 'Times New Roman', Times, serif;font-weight: bolder;"
+                                    placeholder="Enter Your Query or Feedback....."></textarea>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="forms" id="real">
+                        <button type="submit">SUBMIT</button>
+                    </div>
+                </form>
+            </div>
         </div>
         <div class="Home">
             <a href="index.html">Home</a>
