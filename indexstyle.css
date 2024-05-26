@@ -3,7 +3,9 @@ body {
     margin: 0;
     box-sizing: border-box;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 /* main backgroung (imp) */
 .imp {
     width: 100%;
@@ -23,7 +25,7 @@ body {
     justify-content: center;
     /* height: 50%; */
     border: 2px solid black;
-    background-image: url(https://images.pexels.com/photos/1443867/pexels-photo-1443867.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-image: url(image.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -32,11 +34,11 @@ body {
 }
 
 .hero img {
-    height: 250px;
-    width: 250px;
+    height: 350px;
+    width: 350px;
     border-radius: 700px;
     margin-top: 100px;
-    /* filter: invert(100%); */
+    filter: invert(10%);
 }
 
 .hero h1 {
@@ -132,6 +134,22 @@ body {
 .select:hover {
     background-color: gray;
 }
+/* fade effect */
+.hide{
+    opacity: 0;
+    transform: translateX(-50%);
+    transition: all 2s;
+}
+@media(prefers-reduced-motion){
+.hide{
+    transition: none;
+}
+}
+.show{
+    opacity: 1;
+    transform: translatey(0);
+    transition: all 2s;
+}
 /* FOOTER */
 .foot-1{
     background-color: #374758;
@@ -140,6 +158,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: all 1s;
 }
 .foot-1 a{
     text-decoration: none;
