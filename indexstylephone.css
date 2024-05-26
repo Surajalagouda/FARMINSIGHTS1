@@ -23,7 +23,7 @@ body {
     justify-content: center;
     /* height: 50%; */
     border: 2px solid black;
-    background-image: url(https://images.pexels.com/photos/1443867/pexels-photo-1443867.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-image: url(image.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -32,8 +32,8 @@ body {
 }
 
 .hero img {
-    height: 170px;
-    width: 170px;
+    height: 270px;
+    width: 270px;
     border-radius: 700px;
     margin-top: 15px;
     /* filter: invert(100%); */
@@ -180,4 +180,15 @@ body {
     /* font-size: 1rem;
     text-align: center; */
     padding-top: 8px;
+}
+/* fade effect */
+.hide{
+    opacity: 0;
+    /* transform: translateX(-50%); */
+    transition: all 3s;
+}
+.show{
+    opacity: 1;
+    /* transform: translateX(0); */
+    transition: all 3s;
 }
